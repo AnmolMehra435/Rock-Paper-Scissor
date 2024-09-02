@@ -1,0 +1,91 @@
+body{
+   background-color:khaki;
+
+}
+h1{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 40px;
+}
+
+.rules{
+    border: 2px solid black;
+    background-color:bisque;
+    max-width: 700px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Verdana;
+    font-size: 18px;
+    padding: 20px 20px;
+}
+
+.rules > p{
+    padding-bottom: 3px;
+}
+
+.game{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.options{
+    display: block;
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+.options > p{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+button{
+    font-size: 25px;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+
+.rst-btn{
+  margin: auto;
+  max-width: 95px;
+}
+
+.reset-btn{
+    display: none;
+}
+
+.scores{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: Verdana;
+    font-size: 28px;
+}
+ 
+.comments{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 25px;
+    margin: 25px;
+}
+
